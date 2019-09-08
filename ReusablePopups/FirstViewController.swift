@@ -15,6 +15,14 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDataePopupViewControllerSegue" {
+            //cast the destenation to the type of vc that I want to referenec
+            let popup = segue.destination as! DatePopupViewController
+            popup.showTimePicker = false
+            
+        }
+    }
 
 }
 

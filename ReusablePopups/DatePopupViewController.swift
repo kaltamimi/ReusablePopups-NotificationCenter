@@ -14,11 +14,20 @@ class DatePopupViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var saveButton: UIButton!
     
+    var showTimePicker: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if showTimePicker {
+            titleLabel.text = "Select Time"
+            datePicker.datePickerMode = .time
+            saveButton.setTitle("Save Time", for: .normal)
+        }
     }
+    
     
     @IBAction func saveDate_TouchUpInside(_ sender: Any) {
         dismiss(animated: true)
