@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13709DE23367A3A00B4288D /* NotificationNameExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13709DD23367A3A00B4288D /* NotificationNameExtention.swift */; };
 		F160012F2324BBFF009A2423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160012E2324BBFF009A2423 /* AppDelegate.swift */; };
 		F16001312324BBFF009A2423 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16001302324BBFF009A2423 /* FirstViewController.swift */; };
 		F16001332324BBFF009A2423 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16001322324BBFF009A2423 /* SecondViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13709DD23367A3A00B4288D /* NotificationNameExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtention.swift; sourceTree = "<group>"; };
 		F160012B2324BBFF009A2423 /* ReusablePopups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusablePopups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F160012E2324BBFF009A2423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16001302324BBFF009A2423 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				F16001422324BF2D009A2423 /* DatePopupViewController.swift */,
 				F16001472324C998009A2423 /* SelectTimeViewController.storyboard */,
 				F16001492324CA10009A2423 /* SelectTimeViewController.swift */,
+				F13709DD23367A3A00B4288D /* NotificationNameExtention.swift */,
 			);
 			path = ReusablePopups;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				F16001332324BBFF009A2423 /* SecondViewController.swift in Sources */,
 				F160014A2324CA10009A2423 /* SelectTimeViewController.swift in Sources */,
+				F13709DE23367A3A00B4288D /* NotificationNameExtention.swift in Sources */,
 				F16001432324BF2D009A2423 /* DatePopupViewController.swift in Sources */,
 				F160012F2324BBFF009A2423 /* AppDelegate.swift in Sources */,
 				F16001312324BBFF009A2423 /* FirstViewController.swift in Sources */,
